@@ -1,0 +1,23 @@
+<p>viewproduct works!</p>
+<input type="button" name="submit"  class="btn-primary" value="submit">
+<button type="button" class="btn btn-warning" >Warning</button>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Product Price</th>
+        <th>Product Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{product.id}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td>{{product.desc}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button type="button" class="btn btn-primary" (click)="gotolist()">BACK</button>
